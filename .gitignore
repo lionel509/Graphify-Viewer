@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+
+# This folder doubles as a note folder in a private Obsidian vault — the project
+# notes live there, not here.
+/*— Project Hub.md

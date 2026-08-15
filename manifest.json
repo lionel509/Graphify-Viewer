@@ -1,0 +1,9 @@
+{
+  "id": "graphify-viewer",
+  "name": "Graphify Viewer",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Explore a graphify knowledge graph inside Obsidian. Renders graph.json as an interactive map and opens the note or source file behind any node.",
+  "author": "Lionel Weng",
+  "isDesktopOnly": true
+}
