@@ -4,3 +4,6 @@ node_modules/
 # This folder doubles as a note folder in a private Obsidian vault — the project
 # notes live there, not here.
 /*— Project Hub.md
+
+# graphify output — rebuilt with `graphify update .`, never versioned
+graphify-out/
