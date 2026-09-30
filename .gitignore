@@ -7,3 +7,38 @@ node_modules/
 
 # graphify output — rebuilt with `graphify update .`, never versioned
 graphify-out/
+
+# --- cleanup (issue #1) -------------------------------------------------
+# Python — running/exporting with export_obsidian.py
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local virtualenvs for the exporter
+.venv/
+venv/
+env/
+
+# Secrets — never committed, and deliberately KEPT by the cleanup commands
+# in CLEANUP.md (see the Secrets section there).
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Logs, editor and OS droppings
+*.log
+logs/
+.idea/
+.vscode/
+*.swp

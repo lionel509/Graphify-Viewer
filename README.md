@@ -142,6 +142,12 @@ render all of it.
   `references` / `rationale_for`; the view draws every edge alike. Filtering by relation
   would make it far more readable past a couple hundred nodes.
 
+## Cleanup
+
+`.gitignore` covers everything this project generates (`node_modules/`, `graphify-out/`,
+Python caches, virtualenvs, secrets). [CLEANUP.md](CLEANUP.md) lists what's left behind
+and the exact commands to remove it — secrets are kept by default.
+
 ## License
 
 MIT
